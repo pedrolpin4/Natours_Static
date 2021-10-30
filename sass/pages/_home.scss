@@ -1,0 +1,14 @@
+.section-about{
+    @include column-justify-center;
+    background-color: $color-grey-light-1;
+    padding: 25rem 0;
+    margin-top: -20px;
+
+    &__text{
+        width: 60rem;
+    }
+    &__images{
+        width: 40rem;
+    }
+}
+
