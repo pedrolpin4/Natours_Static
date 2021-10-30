@@ -2,13 +2,14 @@
     @include column-justify-center;
     background-color: $color-grey-light-1;
     padding: 25rem 0;
-    margin-top: -20px;
+    margin-top: -20vh;
 
     &__text{
-        width: 60rem;
+        width: 45%;
+        margin-right: 5%; 
     }
     &__images{
-        width: 40rem;
+        width: 30%;
     }
 }
 
