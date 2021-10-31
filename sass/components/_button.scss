@@ -31,6 +31,16 @@
             z-index: -1;
         }
     }
+
+    &--green{
+        background-color: $color-primary-light;
+        color:$color-white;
+        &::after{
+            background-color: $color-primary-light;
+            z-index: -1;
+        }
+    }
+
     
     &::after{
         content: "";
@@ -54,7 +64,7 @@
 
 .btn-text{
     &:link, &:visited{
-        width: 10rem;
+        width: 12.5rem;
         font-size: $default-font-size;
         color: $color-primary;
         text-decoration: none;

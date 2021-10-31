@@ -2,14 +2,18 @@
     margin-bottom: 8rem;
 }
 
+.margin-bottom-huge{
+    margin-bottom: 10rem;
+}
+
 .margin-bottom-small{
     margin-bottom: 1.5rem;
 }
 
-.flex-2-columns{
+.flex-rows{
     @include flex-justify-center
 }
 
-.flex-4-columns{
-    @include flex-justify-center
+.flex-columns{
+    @include column-justify-center
 }

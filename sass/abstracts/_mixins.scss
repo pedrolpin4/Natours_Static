@@ -21,3 +21,15 @@
     background-position: top;
     position: relative;
 }
+
+@mixin text-gradient {
+    background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+@mixin background-gradient ($c1, $c2) {
+    background-image: linear-gradient(to right bottom, $c1, $c2);
+    background-size: cover;
+    background-position: top;
+}
